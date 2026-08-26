@@ -23,8 +23,8 @@ jobs:
 
       - name: Commit and push
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "manishgiri31"
+          git config user.email "manishgiri312005@gmail.com"
           git add daily/activity.log
           git commit -m "Daily automated update" || echo "No changes to commit"
           git push
